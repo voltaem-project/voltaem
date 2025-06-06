@@ -35,9 +35,8 @@ chmod -R go-w "$(brew --prefix)/share/zsh"
 Install dependencies via Brew.
 
 ```sh
-brew install autoconf automake libtool miniupnpc openssl pkg-config protobuf@21 \
+brew install autoconf automake libtool miniupnpc openssl pkg-config protobuf \
              qt5 zeromq qrencode librsvg boost berkeley-db@5 libevent autoconf-archive
-brew link protobuf@21
 ```
 
 ### Go back to your Voltaem repo ###
@@ -46,7 +45,7 @@ brew link protobuf@21
 cd ~/voltaem
 
 ./autogen.sh
-./configure --with-gui=qt5 --with-boost=`brew --prefix boost`
+./configure --enable-c++17 --with-gui --with-boost=`brew --prefix boost`
 make
 ```
 
