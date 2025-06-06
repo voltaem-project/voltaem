@@ -17,7 +17,7 @@ The JSON-RPC API provided by Voltaem Core is self-documenting and can be browsed
 
 ### Such ports
 
-Voltaem Core by default uses port `22556` for peer-to-peer communication that
+Voltaem Core by default uses port `20926` for peer-to-peer communication that
 is needed to synchronize the "mainnet" blockchain and stay informed of new
 transactions and blocks. Additionally, a JSONRPC port can be opened, which
 defaults to port `22555` for mainnet nodes. It is strongly recommended to not
@@ -25,7 +25,7 @@ expose RPC ports to the public internet.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
+| P2P      |   20926 |   44556 |   18444 |
 | RPC      |   22555 |   44555 |   18332 |
 
 ## Ongoing development - Moon plan 🌒
