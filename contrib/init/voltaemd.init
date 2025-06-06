@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  voltaemd The voltaem core server.
+#
+#
+# chkconfig: 345 80 20
+# description: voltaemd
+# processname: voltaemd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/voltaemd, see below
+if [ -f /etc/sysconfig/voltaemd ]; then
+        . /etc/sysconfig/voltaemd
+fi
+
+RETVAL=0
+
+prog=voltaemd
+# you can override the lockfile via VOLTAEMD_LOCKFILE in /etc/sysconfig/voltaemd
+lockfile=${VOLTAEMD_LOCKFILE-/var/lock/subsys/voltaemd}
+
+# voltaemd defaults to /usr/bin/voltaemd, override with VOLTAEMD_BIN
+voltaemd=${VOLTAEMD_BIN-/usr/bin/voltaemd}
+
+# voltaemd opts default to -disablewallet, override with VOLTAEMD_OPTS
+voltaemd_opts=${VOLTAEMD_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $voltaemd $voltaemd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

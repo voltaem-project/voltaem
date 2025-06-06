@@ -1,0 +1,33 @@
+# /etc/conf.d/voltaemd: config file for /etc/init.d/voltaemd
+
+# Config file location
+#VOLTAEMD_CONFIGFILE="/etc/voltaem/voltaem.conf"
+
+# What directory to write pidfile to?  (created and owned by $VOLTAEMD_USER)
+#VOLTAEMD_PIDDIR="/var/run/voltaemd"
+
+# What filename to give the pidfile
+#VOLTAEMD_PIDFILE="${VOLTAEMD_PIDDIR}/voltaemd.pid"
+
+# Where to write voltaemd data (be mindful that the blockchain is large)
+#VOLTAEMD_DATADIR="/var/lib/voltaemd"
+
+# User and group to own voltaemd process
+#VOLTAEMD_USER="voltaem"
+#VOLTAEMD_GROUP="voltaem"
+
+# Path to voltaemd executable
+#VOLTAEMD_BIN="/usr/bin/voltaemd"
+
+# Nice value to run voltaemd under
+#VOLTAEMD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+VOLTAEMD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for voltaemd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+VOLTAEMD_SIGTERM_TIMEOUT=60

@@ -1,0 +1,6 @@
+usr/local/bin/voltaem-qt usr/bin
+share/pixmaps/voltaem32.xpm usr/share/pixmaps
+share/pixmaps/voltaem16.xpm usr/share/pixmaps
+share/pixmaps/voltaem128.png usr/share/pixmaps
+debian/voltaem-qt.desktop usr/share/applications
+debian/voltaem-qt.protocol usr/share/kde4/services/

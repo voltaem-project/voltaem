@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Voltaem Core
+Comment=Connect to the Voltaem P2P Network
+Comment[de]=Verbinde mit dem Voltaem peer-to-peer Netzwerk
+Comment[fr]=Voltaem, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Voltaem, eşten eşe kriptografik sanal para birimi
+Exec=voltaem-qt %u
+Terminal=false
+Type=Application
+Icon=voltaem128
+MimeType=x-scheme-handler/voltaem;
+Categories=Office;Finance;
