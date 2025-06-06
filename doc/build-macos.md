@@ -36,7 +36,7 @@ Install dependencies via Brew.
 
 ```sh
 brew install autoconf automake libtool miniupnpc openssl pkg-config protobuf@21 \
-             qt5 zeromq qrencode librsvg boost berkeley-db@5 libevent
+             qt5 zeromq qrencode librsvg boost berkeley-db@5 libevent autoconf-archive
 brew link protobuf@21
 ```
 
