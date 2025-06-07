@@ -287,7 +287,7 @@
         <translation>Tampilkan gambaran umum dompet Anda</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;Kirim Aja</translation>
     </message>
     <message>
@@ -295,7 +295,7 @@
         <translation>Kirim koin ke alamat Voltaem</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>&amp;Terima Banget</translation>
     </message>
     <message>

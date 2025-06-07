@@ -391,11 +391,11 @@
         <translation>กระเป๋าเงิน</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;ส่ง</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>&amp;รับ</translation>
     </message>
     <message>

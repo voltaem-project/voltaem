@@ -379,11 +379,11 @@
         <translation>Гаманец</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>Даслаць</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>Атрымаць</translation>
     </message>
     <message>

@@ -383,11 +383,11 @@
         <translation>Novčanik</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;Pošalji</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>Pri&amp;mi</translation>
     </message>
     <message>

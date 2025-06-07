@@ -271,7 +271,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;ناردن</translation>
     </message>
     <message>
@@ -319,7 +319,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

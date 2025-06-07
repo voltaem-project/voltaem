@@ -395,11 +395,11 @@
         <translation>钱包</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>发送(&amp;S)</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>接收(&amp;R)</translation>
     </message>
     <message>

@@ -391,12 +391,12 @@
         <translation>Wallet</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
-        <translation>&amp;Such Send</translation>
+        <source>&amp;Send</source>
+        <translation>&amp;Send</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
-        <translation>&amp;Much Receive</translation>
+        <source>&amp;Receive</source>
+        <translation>&amp;Receive</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>

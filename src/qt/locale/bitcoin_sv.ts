@@ -408,11 +408,11 @@ Var vänlig och försök igen.</translation>
         <translation>Plånbok</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>&amp;Ta emot</translation>
     </message>
     <message>

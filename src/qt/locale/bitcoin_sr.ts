@@ -335,7 +335,7 @@
         <translation>новчаник</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;Пошаљи</translation>
     </message>
     <message>
@@ -387,7 +387,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

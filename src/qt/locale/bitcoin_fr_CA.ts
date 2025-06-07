@@ -287,7 +287,7 @@
         <translation>Afficher une vue d&apos;ensemble du portefeuille</translation>
     </message>
     <message>
-        <source>&amp;Such Send</source>
+        <source>&amp;Send</source>
         <translation>&amp;Such Envoyer</translation>
     </message>
     <message>
@@ -295,7 +295,7 @@
         <translation>Envoyer des pièces à une adresse Voltaem</translation>
     </message>
     <message>
-        <source>&amp;Much Receive</source>
+        <source>&amp;Receive</source>
         <translation>&amp;Much Recevoir</translation>
     </message>
     <message>
