@@ -218,23 +218,23 @@ BOOST_AUTO_TEST_CASE(hardfork_parameters)
     BOOST_CHECK_EQUAL(initialParams.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(initialParams.fDigishieldDifficultyCalculation, false);
 
-    const Consensus::Params& initialParamsEnd = Params().GetConsensus(99);
+    const Consensus::Params& initialParamsEnd = Params().GetConsensus(2);
     BOOST_CHECK_EQUAL(initialParamsEnd.nPowTargetTimespan, 14400);
     BOOST_CHECK_EQUAL(initialParamsEnd.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(initialParamsEnd.fDigishieldDifficultyCalculation, false);
 
-    const Consensus::Params& digishieldParams = Params().GetConsensus(100);
+    const Consensus::Params& digishieldParams = Params().GetConsensus(3);
     BOOST_CHECK_EQUAL(digishieldParams.nPowTargetTimespan, 60);
     BOOST_CHECK_EQUAL(digishieldParams.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(digishieldParams.fDigishieldDifficultyCalculation, true);
 
-    const Consensus::Params& digishieldParamsEnd = Params().GetConsensus(249);
+    const Consensus::Params& digishieldParamsEnd = Params().GetConsensus(4);
     BOOST_CHECK_EQUAL(digishieldParamsEnd.nPowTargetTimespan, 60);
     BOOST_CHECK_EQUAL(digishieldParamsEnd.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(digishieldParamsEnd.fDigishieldDifficultyCalculation, true);
 
-    const Consensus::Params& auxpowParams = Params().GetConsensus(250);
-    BOOST_CHECK_EQUAL(auxpowParams.nHeightEffective, 250);
+    const Consensus::Params& auxpowParams = Params().GetConsensus(5);
+    BOOST_CHECK_EQUAL(auxpowParams.nHeightEffective, 5);
     BOOST_CHECK_EQUAL(auxpowParams.nPowTargetTimespan, 60);
     BOOST_CHECK_EQUAL(auxpowParams.fAllowLegacyBlocks, false);
     BOOST_CHECK_EQUAL(auxpowParams.fDigishieldDifficultyCalculation, true);
